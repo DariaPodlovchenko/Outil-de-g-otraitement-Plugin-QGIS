@@ -4,18 +4,25 @@ Ce projet présente le développement d’un **outil de géotraitement personnal
 
 L’exemple présenté repose sur des **données de population et de communes en France**, mais l’outil peut être adapté à tout autre territoire disposant de données similaires.  
 
-Installation et ajout de l’outil dans QGIS
+<br>
+
+**Installation et ajout de l’outil dans QGIS**
+
 1️⃣ Ajouter le script à QGIS
 1. Télécharger [`fichier.py`](fichier.py)  
 2. Copier le fichier dans le dossier des scripts Processing de QGIS :  
    - Windows : `C:\Users\TonNom\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\scripts\`  
-   - Linux/macOS : `~/.local/share/QGIS/QGIS3/profiles/default/processing/scripts/`  
+   - Linux/macOS : `~/.local/share/QGIS/QGIS3/profiles/default/processing/scripts/`
+
+<br>
 
 2️⃣ Charger l’outil dans la Boîte à outils de traitement
 1. Ouvrir QGIS  
 2. Aller dans "Traitement" → "Boîte à outils" (Ctrl + Alt + T)  
 3. Faire un clic droit sur "Scripts" → "Recharger les scripts"  
 4. L’outil **"Population Density Tool"** apparaîtra dans la liste des outils personnalisés  
+
+<br>
 
 3️⃣ Exécuter l’outil
 1. Sélectionner les paramètres d’entrée :  
@@ -25,6 +32,7 @@ Installation et ajout de l’outil dans QGIS
    - Le nom de la région à analyser  
 2. Lancer l’analyse et observer la carte générée  
 
+<br>
 
 Résultats et visualisation dans QGIS
 L’outil applique automatiquement une **classification par densité de population** avec la palette suivante :  
