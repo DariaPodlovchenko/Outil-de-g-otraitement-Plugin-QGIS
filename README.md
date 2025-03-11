@@ -9,7 +9,7 @@ L’exemple présenté repose sur des **données de population et de communes en
 **Installation et ajout de l’outil dans QGIS**
 
 1️⃣ Ajouter le script à QGIS
-1. Télécharger [`fichier.py`](fichier.py)  
+1. Télécharger [`PopulationDensityTool.py`](PopulationDensityTool.py)  
 2. Copier le fichier dans le dossier des scripts Processing de QGIS :  
    - Windows : `C:\Users\TonNom\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\scripts\`  
    - Linux/macOS : `~/.local/share/QGIS/QGIS3/profiles/default/processing/scripts/`
